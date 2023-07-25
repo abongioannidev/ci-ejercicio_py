@@ -78,19 +78,24 @@ class App(customtkinter.CTk):
             "Femenino", "Masculino", "Femenino", "Masculino", "Femenino"
         ]
         # Lista de tipo de entrada (General, Campo delantero, Platea)
-        self.lista_tipo_entrada = [
-            "General", "Campo delantero", "Platea", "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General",
-            "Campo delantero", "Platea", "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General",
-            "Platea", "Campo delantero", "General", "Platea", "Campo delantero",
-            "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero",
-            "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General",
-            "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero",
-            "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General",
-            "Platea", "Campo delantero", "General", "Platea", "Campo delantero",
-            "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero",
-            "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General",
-            "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero"
-        ]
+        self.lista_tipo_entrada = ["General", "Campo delantero", "Platea", "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General",
+                                   "Campo delantero", "Platea", "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General",
+                                   "Platea",
+                                   "Campo delantero", "General", "Platea", "Campo delantero",
+                                   "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero",
+                                   "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General",
+                                   "Platea",
+                                   "Campo delantero", "General", "Platea", "Campo delantero",
+                                   "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero",
+                                   "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General",
+                                   "Platea",
+                                   "Campo delantero", "General", "Platea", "Campo delantero",
+                                   "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero",
+                                   "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "General",
+                                   "Platea",
+                                   "Campo delantero", "General", "Platea", "Campo delantero",
+                                   "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero", "Campo delantero",
+                                   "General", "Platea", "Campo delantero", "General", "Platea", "Campo delantero"]
 
         # Lista de medio de pago (Credito, Debito, Efectivo)
         self.lista_medio_pago = [
