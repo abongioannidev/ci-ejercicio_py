@@ -18,11 +18,11 @@ class App(customtkinter.CTk):
         self.title("UTN Fra")
 
         self.btn_agregar = customtkinter.CTkButton(
-            master=self, text="Agregar", command=self.btn_agregar_on_click)
+            master=self, text="Comenzar Ingreso", command=self.btn_agregar_on_click)
         self.btn_agregar.grid(row=0, column=0, pady=10, padx=10)
 
         self.btn_mostrar = customtkinter.CTkButton(
-            master=self, text="Mostrar", command=self.btn_mostrar_on_click)
+            master=self, text="Calcular", command=self.btn_mostrar_on_click)
         self.btn_mostrar.grid(row=2, column=0, pady=10, padx=10)
 
         self.lista_nombres = ["Juan", "María", "Luis", "Ana", "Carlos", "Laura", "Pedro",
